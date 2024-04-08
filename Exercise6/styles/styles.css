@@ -1,0 +1,61 @@
+body {
+  background-image: url('https://cdn.discordapp.com/attachments/1214956585785368647/1226898029177606194/tenor.gif?ex=662670d4&is=6613fbd4&hm=6b1b162cf508eff54c20a61b5c9347299ca80884b5f8569cf0a6595fe4739b4c&');
+  background-repeat: no-repeat;
+  background-size: contain; /* Ensure entire image is visible without cropping */
+  background-position: center; /* Center the background image */
+  color: #fff;
+}
+
+.container {
+  max-width: 400px;
+  margin: 5% auto;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 5%;
+  text-align: center;
+  border-radius: 5px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.container button {
+  width: 240px;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 10%;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+input {
+  padding: 12px;
+  margin-bottom: 5%;
+  border: 1px solid #dddfe2;
+  border-radius: 8px;
+  font-size: 16px;
+  color: #fff;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+button {
+  padding: 12px;
+  margin: 5%;
+  background-color: #64520070;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #64520070;
+}
+
+.error-message {
+  color: red;
+  font-size: 90%;
+  margin-bottom: 5%;
+}
